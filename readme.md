@@ -33,3 +33,13 @@ git reset HEAD <file>
 
 ##创建SSH Key
 ssh-keygen -t rsa -C "youremail@example.com"
+
+##关联一个远程库
+git remote add origin git@server-name:path/repo-name.git
+
+##第一次推送master分支的所有内容
+git push -u origin master
+第二次之后就不用再加 -u 了
+
+##克隆一个仓库
+git clone git@server-name:path/repo-name.git
