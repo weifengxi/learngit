@@ -8,3 +8,7 @@ git status
 git diff [filename]
 #查看提交日志
 git log [--pretty=oneline]
+#版本回退
+git reset --hard [commit id]
+#git记录的每次命令
+git reflog
