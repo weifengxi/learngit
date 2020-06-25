@@ -1,5 +1,7 @@
 #git学习命令 2020.6
 
+##git客户端国内下载：[git](https://npm.taobao.org/mirrors/git-for-windows/)
+
 ##添加文件
 git add [filename]
 
