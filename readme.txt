@@ -6,3 +6,5 @@ git commit -m '[注释]'
 git status
 #查看修改信息
 git diff [filename]
+#查看提交日志
+git log [--pretty=oneline]
