@@ -50,6 +50,14 @@ git clone git@server-name:path/repo-name.git
 1、创建与合并分支
 git checkout -b dev 相当于
 git branch dev & git checkout dev
+或
+git switch -b dev
 
 2、查看当前分支
 git branch
+
+3、合并分支
+git merge dev
+
+4、删除分支
+git branch -d dev
