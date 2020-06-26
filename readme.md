@@ -45,3 +45,11 @@ git push -u origin master
 
 ##克隆一个仓库
 git clone git@server-name:path/repo-name.git
+
+#分支管理
+1、创建与合并分支
+git checkout -b dev 相当于
+git branch dev & git checkout dev
+
+2、查看当前分支
+git branch
