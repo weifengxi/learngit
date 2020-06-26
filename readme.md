@@ -51,7 +51,7 @@ git clone git@server-name:path/repo-name.git
 git checkout -b dev 相当于
 git branch dev & git checkout dev
 或
-git switch -b dev
+git switch -c dev
 
 2、查看当前分支
 git branch
