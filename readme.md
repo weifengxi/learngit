@@ -61,4 +61,6 @@ git merge dev
 
 4、删除分支
 git branch -d dev
-Creating a new branch is quick and simple.
+
+5、禁用Fast forward模式
+--no-ff
